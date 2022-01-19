@@ -2,10 +2,17 @@ class Ex4_7 {
 	public static void main(String args[]) {
 		int num = 0;
 
-		// °ıÈ£{} ¾ÈÀÇ ³»¿ëÀ» 5¹ø ¹İº¹ÇÑ´Ù.
-		for (int i = 1; i <= 5; i++) {
-			num = (int) (Math.random() * 6) + 1;
-			System.out.println(num);
+		// Quiz_1 ê´„í˜¸{} ì•ˆì˜ ë‚´ìš©ì„ 5ë²ˆ ë°˜ë³µí•œë‹¤.
+//		for (int i = 1; i <= 5; i++) {
+//			num = (int) (Math.random() * 6) + 1;
+//			System.out.println(num);
+		
+		//Quiz_2 -5~5 ì‚¬ì´ì˜ ë‚œìˆ˜ ë°œìƒ
+		for (int i=1; i<=5; i++)
+		{
+		     num = (int)(Math.random()*11)+(-5);
+		     System.out.println(num);
 		}
+		
 	}
-}
+	}
